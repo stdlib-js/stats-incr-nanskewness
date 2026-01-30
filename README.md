@@ -97,7 +97,7 @@ G_1 = \frac{n^2}{(n-1)(n-2)} \frac{m_3}{s^3} = \frac{\sqrt{n(n-1)}}{n-2} \frac{\
 To use in Observable,
 
 ```javascript
-incrnanskewness = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanskewness@umd/browser.js' )
+incrnanskewness = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanskewness@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -109,7 +109,7 @@ var incrnanskewness = require( 'path/to/vendor/umd/stats-incr-nanskewness/index.
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanskewness@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanskewness@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -182,7 +182,7 @@ skewness = accumulator();
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanskewness@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanskewness@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
