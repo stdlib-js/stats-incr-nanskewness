@@ -95,7 +95,7 @@ G_1 = \frac{n^2}{(n-1)(n-2)} \frac{m_3}{s^3} = \frac{\sqrt{n(n-1)}}{n-2} \frac{\
 ## Usage
 
 ```javascript
-import incrnanskewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanskewness@deno/mod.js';
+import incrnanskewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanskewness@v0.1.1-deno/mod.js';
 ```
 
 #### incrnanskewness()
@@ -155,7 +155,7 @@ skewness = accumulator();
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@deno/mod.js';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@deno/mod.js';
-import incrnanskewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanskewness@deno/mod.js';
+import incrnanskewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanskewness@v0.1.1-deno/mod.js';
 
 // Initialize an accumulator:
 var accumulator = incrnanskewness();
